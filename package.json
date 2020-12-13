@@ -1,6 +1,6 @@
 {
   "name": "html-dynamic-text-rows",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small javascript component for dynamicly resizing text to spread over the entire width of the parent element.",
   "main": "html-dynamic-text-rows.min.js",
   "scripts": {
