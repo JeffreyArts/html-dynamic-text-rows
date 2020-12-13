@@ -12,8 +12,9 @@
     <script src="html-dynamic-text-rows.js"></script>
 </head>
 <body>
-    <section class="container">
-        <section>
+    <div class="container ">
+        <section class="__isBlock">
+            <h1>Display: block</h1>
             <div class="box">
                 <span dynamic-text-rows="1">dynamic-text-rows="1"</span>
             </div>
@@ -26,22 +27,38 @@
                 <span dynamic-text-rows="3">dynamic-text-rows="3"</span>
             </div>
         </section>
-        <section>
-            <div class="box" style="padding: 40px;">
-                <span dynamic-text-rows="1" >dynamic-text-rows="1", with a container padding</span>
+    </div>
+
+
+    <div class="container">
+        <section class=" __isInline">
+            <h1>Display: inline</h1>
+            <div class="box">
+                <span dynamic-text-rows="1">dynamic-text-rows="1"</span>
             </div>
             <br>
-            <div class="box" style="padding: 40px;">
-                <span dynamic-text-rows="2">dynamic-text-rows="2", with a container padding</span>
+            <div class="box">
+                <span dynamic-text-rows="2">dynamic-text-rows="2"</span>
             </div>
             <br>
-            <div class="box" style="padding: 40px;">
-                <span dynamic-text-rows="3">dynamic-text-rows="3", with a container padding</span>
+            <div class="box">
+                <span dynamic-text-rows="3">dynamic-text-rows="3"</span>
             </div>
         </section>
-
-
-    </section>
-
+        <section class=" __isFlex">
+            <h1>Display: flex</h1>
+            <div class="box">
+                <span dynamic-text-rows="1" style="height:100px;"><span>dynamic-text-rows="1"</span></span>
+            </div>
+            <br>
+            <div class="box">
+                <span dynamic-text-rows="2">dynamic-text-rows="2"</span>
+            </div>
+            <br>
+            <div class="box">
+                <span dynamic-text-rows="3">dynamic-text-rows="3"</span>
+            </div>
+        </section>
+    </div>
 </body>
 </html>

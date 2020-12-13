@@ -3,6 +3,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -13,7 +14,26 @@ body {
 }
 
 section {
-    width: 50%;
+    width: calc( 50% - 100px);
+    padding-left: 50px;
+    padding-right: 50px;
     float: left;
-    display: block;
+    display: inline-block;
+    margin-bottom: 50px;
+
+    &.__isBlock {
+        .box {
+            display: block;
+        }
+    }
+    &.__isInline {
+        .box {
+            display: inline;
+        }
+    }
+    &.__isFlex {
+        .box {
+            display: flex;
+        }
+    }
 }
