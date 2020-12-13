@@ -1,0 +1,15 @@
+@keyframes htmlDynamicTextRowsComponentNodeInserted {
+    from {
+        color: currentColor;
+    }
+    to {
+        color: currentColor;
+    }
+}
+
+*[dynamic-text-rows] {
+    -webkit-animation-duration: .001s;
+    animation-duration: .001s;
+    -webkit-animation-name: htmlRatioComponentNodeInserted;
+    animation-name: htmlRatioComponentNodeInserted;
+}

@@ -1,0 +1,19 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: block;
+    border: 1px solid #ccc;
+    width: 400px;
+    text-align: center;
+}
+
+section {
+    width: 50%;
+    float: left;
+    display: block;
+}
