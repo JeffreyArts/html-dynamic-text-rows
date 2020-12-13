@@ -2,13 +2,13 @@
   "name": "html-dynamic-text-rows",
   "version": "1.0.2",
   "description": "A small javascript component for dynamicly resizing text to spread over the entire width of the parent element.",
-  "main": "html-dynamic-text-rows.js",
+  "main": "html-dynamic-text-rows.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JeffreyArts/html-dynamic-text-rows"
+    "url": "git+https://github.com/JeffreyArts/html-dynamic-text-rows.git"
   },
   "author": "Jeffrey Arts <sjeffff@gmail.com>",
   "license": "MIT",
@@ -30,5 +30,18 @@
     "postcss-calc": "^5.2.0",
     "postcss-nested": "^1.0.0",
     "postcss-scss": "^0.1.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/JeffreyArts/html-dynamic-text-rows/issues"
+  },
+  "homepage": "https://github.com/JeffreyArts/html-dynamic-text-rows#readme",
+  "dependencies": {},
+  "keywords": [
+    "dynamic",
+    "text",
+    "resize",
+    "rows",
+    "title",
+    "sizing"
+  ]
 }

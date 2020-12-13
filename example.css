@@ -10,15 +10,10 @@ body {
 .box {
   display: block;
   border: 1px solid #ccc;
-  width: 100%;
+  width: 400px;
   text-align: center; }
 
 section {
-  width: calc(50% - 20px);
+  width: 50%;
   float: left;
-  display: block;
-}
-
-section + section {
-  margin-left: 40px;
-}
+  display: block; }
